@@ -1,0 +1,9 @@
+train: D:/QTproject/yolov5-master/data/images/images/train
+val: D:/QTproject/yolov5-master/data/images/images/val
+test: D:/QTproject/yolov5-master/data/images/images/test
+
+nc: 7
+names: ['No Entry', 'Hump', 
+'Stop', 'Pedestrian Cross', 
+'No Stop', 'Give Way', 
+'Pass Either']
