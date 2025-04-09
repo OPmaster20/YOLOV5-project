@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Top</class>
+ <widget class="QWidget" name="Top">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>555</width>
+    <height>310</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Topup</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>521</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <property name="tabPosition">
+    <enum>QTabWidget::South</enum>
+   </property>
+   <property name="tabShape">
+    <enum>QTabWidget::Rounded</enum>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <property name="documentMode">
+    <bool>false</bool>
+   </property>
+   <property name="tabsClosable">
+    <bool>false</bool>
+   </property>
+   <property name="movable">
+    <bool>false</bool>
+   </property>
+   <property name="tabBarAutoHide">
+    <bool>false</bool>
+   </property>
+   <widget class="QWidget" name="t1">
+    <attribute name="icon">
+     <iconset>
+      <normaloff>C:/Users/Bao/Downloads/icons8-online-shopping-48.png</normaloff>C:/Users/Bao/Downloads/icons8-online-shopping-48.png</iconset>
+    </attribute>
+    <attribute name="title">
+     <string>Membership Type</string>
+    </attribute>
+    <widget class="Line" name="line">
+     <property name="geometry">
+      <rect>
+       <x>412</x>
+       <y>20</y>
+       <width>21</width>
+       <height>211</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+    <widget class="QListWidget" name="listWidget">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>30</y>
+       <width>321</width>
+       <height>192</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>Bronze VIP Member (15$)</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>C:/Users/Bao/Downloads/icons8-buy-48.png</normaloff>C:/Users/Bao/Downloads/icons8-buy-48.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>————————</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Silver VIP Member (30$)</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>C:/Users/Bao/Downloads/icons8-buy-48.png</normaloff>C:/Users/Bao/Downloads/icons8-buy-48.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>————————</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Gold VIP Member (45$)</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>C:/Users/Bao/Downloads/icons8-buy-48.png</normaloff>C:/Users/Bao/Downloads/icons8-buy-48.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>————————</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Image recognition purchase [5 times] (10$)</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>C:/Users/Bao/Downloads/icons8-buy-48.png</normaloff>C:/Users/Bao/Downloads/icons8-buy-48.png</iconset>
+      </property>
+     </item>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="t2">
+    <attribute name="icon">
+     <iconset>
+      <normaloff>C:/Users/Bao/Downloads/icons8-buy-for-cash-48.png</normaloff>C:/Users/Bao/Downloads/icons8-buy-for-cash-48.png</iconset>
+    </attribute>
+    <attribute name="title">
+     <string>Scan code to pay</string>
+    </attribute>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>50</y>
+       <width>141</width>
+       <height>131</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QWidget" name="formLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>40</y>
+       <width>291</width>
+       <height>151</height>
+      </rect>
+     </property>
+     <layout class="QFormLayout" name="formLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_2">
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Select Membership Type</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLabel" name="memberline">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_3">
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Username</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="lineEdit">
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QPushButton" name="modifyusername_but">
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>REVISE</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QPushButton" name="Okey_but">
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>OKEY</string>
+        </property>
+        <property name="default">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label_4">
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Password</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLineEdit" name="passwordline">
+        <property name="echoMode">
+         <enum>QLineEdit::Password</enum>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>40</y>
+       <width>161</width>
+       <height>151</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="Line" name="line_2">
+     <property name="geometry">
+      <rect>
+       <x>179</x>
+       <y>30</y>
+       <width>31</width>
+       <height>201</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+    <zorder>formLayoutWidget</zorder>
+    <zorder>graphicsView</zorder>
+    <zorder>label</zorder>
+    <zorder>line_2</zorder>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
